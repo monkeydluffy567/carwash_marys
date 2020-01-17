@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    color: #009879;
+    font-weight: bold;
+
+}
+.content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr{
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+
+}
+
+.content-table th,
+.content-table td{
+    padding: 12px 15px;
+}
+
+.content-table tbody tr{
+    border-bottom: 1px solid #dddddd;
+
+}
+
+.content-table tbody tr:nth-of-type(even){
+    background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type{
+    border-bottom: 2px solid #009879;
+}
+
+.content-table tbody tr.active-row{
+    font-weight: bold;
+    color: #009879;
+}
+
+.content-table tbody tr.active-row{
+    font-weight: bold;
+    color: #009879;
+}
+
+
+/*tablas verticales*/
+.happy-table th{
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.happy-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 300px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.happy-table th,
+.happy-table td{
+    padding: 12px 15px;
+}
+
+.happy-table tbody tr:nth-of-type(even){
+    background-color: #f3f3f3;
+}
+
+.happy-table tbody td:last-of-type{
+    border-right: 2px solid #009879;
+}
+
+.happy-table td{
+    border-bottom: 1px solid #dddddd;
+
+}
+
+/* formulario login*/
+.form-login{    
+    margin: 25px 0;
+    font-size: 0.9em;    
+    border-radius: 5px 5px 0 0;    
+}
+
+.form-login label{
+
+    
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+
+
+
+}
+
+.div-principal{
+    margin: auto;
+
+    width:auto;
+    padding:3px;
+    border: 1px solid black;
+}
+
+.div-izquierda{
+    width:245px;
+    float: left;
+}
+
+.div-derecha{
+    width:245px;
+    float: right;
+}
+
+button {
+    background-color: #009879;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
